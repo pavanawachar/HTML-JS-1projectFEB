@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+#navbar{
+    background-color: black;
+    color: whitesmoke;
+    height: 60px;
+    display: flex;
+align-items: center;
+padding-left: 10px;
+    
+}
+#searchInput{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+   
+    
+}
+#searchInput>input{
+    width: 1170px;
+height:45px;
+
+top: 104px;
+left: 29px;
+border: 1px solid;
+background-color: transparent;
+padding-left: 10px;
+
+}
+#searchInput>button{
+    width: 150px;
+height: 45px;
+top: 103px;
+left: 1268px;
+
+}
+.eg1{
+    background-color:   #CDCDCD;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 150px;
+height: 45px;
+margin: 15px;
+    
+}
+input::placeholder{
+    font-size: medium;
+    font-weight: 500;
+}
+
+.eg2>table{
+    
+    width: 100%;
+    margin-top: 15px;
+}
